@@ -1,0 +1,14 @@
+App(
+    appid="secplus", 
+    name="SecPlus",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="secplus_app",
+    stack_size=2 * 1024,
+    fap_category="Examples",
+    fap_version="0.1",
+    fap_icon="secplus.png",
+    fap_description="Security+ Remote",
+    fap_author="Moycat",
+    fap_weburl="https://github.com/moycat/secplus",
+    fap_icon_assets="images",
+)
